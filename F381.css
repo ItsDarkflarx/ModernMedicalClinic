@@ -1,0 +1,1993 @@
+body, html{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.indexBanner{
+	height: 700px;
+	width: 100%;
+	background: url(photos/banner.png) no-repeat 0 0;
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.doctorBanner{
+	height: 700px;
+	width: 100%;
+	background: url(photos/banner.png) no-repeat 0 0;
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.serviceBanner{
+	height: 700px;
+	width: 100%;
+	background: url(photos/banner.png) no-repeat 0 0;
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.contactBanner{
+	height: 700px;
+	width: 100%;
+	background: url(photos/banner.png) no-repeat 0 0;
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.registrationBanner{
+	height: 700px;
+	width: 100%;
+	background: url(photos/banner.png) no-repeat 0 0;
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.bannerWrapper1{
+	width: 550px;
+	margin: 0px auto;
+	padding-top: 260px;
+	padding-bottom: 20px;
+}
+
+.bannerWrapper2{
+	width: 420px;
+	margin: 0px auto;
+}
+
+.title1 h1{
+	font-family: 'Raleway','Arial'
+	font-size: 150%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.title2 h2{
+	font-family: 'Raleway','Arial'
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.title1{
+	width: 550px;
+	height: 70px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,.8);
+}
+
+.title2{
+	width: 420px;
+	height: 70px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	background-color: rgba(255,255,255,.8);
+}
+
+nav{
+	height: 110px;
+	padding-top: 5px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+nav .logo{
+	margin-left: 20px;
+	background: url(photos/medicine.png) no-repeat 0 0;
+	height: 100px;
+	width: 220px;
+	position: absolute;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	margin: 0 10px 0 0 ;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 43px 10px;
+	color: #111111
+
+}
+
+.left{
+	float: left;
+	clear: right;
+}
+
+.right{
+	float: right;
+}
+
+.wrapper1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clinicWrapper{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.clinicWrapper2{
+	width: 350px;
+	margin: 0 auto;
+}
+
+.newsWrapper{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.testiWrapper{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.contactUsWrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clinicStuff{
+	height: 730px;
+	padding-top: 80px;
+	background: url(photos/blurclinic.png) no-repeat 0 0;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	background-size: 100%;
+}
+
+.clinicNotice1{
+	height: 580px;
+	width: 500px;
+	display: block;
+	background-color: #B6B6B6;
+	float: left;
+}
+
+.clinicNotice2{
+	height: 650px;
+	width: 500px;
+	display: block;
+	background-color: #A4A3A3;
+	float: left;
+}
+
+.clinicNotice3{
+	height: 580px;
+	width: 500px;
+	display: block;
+	background-color: #8D8D8D;
+	float: left;
+}
+
+.clinicIcon1{
+	display: block;
+	margin: 100px auto 0;
+	height: 130px;
+	width: 130px;
+	background: url(photos/ambulance.png) no-repeat 0 0;
+	background-size: 100%;
+	align-content: center;
+}
+
+.clinicDetails1 h2{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.clinicDetails1 p{
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	line-height: 1.8;
+}
+
+.clinicIcon2{
+	display: block;
+	margin: 100px auto 0;
+	height: 130px;
+	width: 130px;
+	background: url(photos/clock.png) no-repeat 0 0;
+	background-size: 100%;
+	align-content: center;
+}
+
+.clinicDetails2 h2{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.clinicDetails2 li{
+	list-style: none;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	height: 30px;
+	border-bottom: dashed 1px #fff;
+	color: white;
+	font-size: 22px;
+	line-height: 1.8;
+}
+
+.clinicDetails2 ul{
+	height: 300px;
+	margin-top: 0px;
+	padding-left: 0px;
+	list-style: none;
+	color: white;
+	font-size: 20px;
+	line-height: 1.8;
+
+}
+
+.clinicIcon3{
+	display: block;
+	margin: 100px auto 0;
+	height: 130px;
+	width: 130px;
+	background: url(photos/clinic.png) no-repeat 0 0;
+	background-size: 100%;
+	align-content: center;
+}
+
+.clinicDetails3 h2{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.clinicDetails3 p{
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	line-height: 1.8;
+}
+
+.aboutUs{
+	height: 620px;
+	margin-top: 100px;
+}
+
+.aboutUsDetails{
+	float: left;
+	width: 460px;
+	margin: 0px 0px 30px 120px;
+}
+
+.subTitle{
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.aboutUsDetails h2{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+
+.aboutUsDetails p{
+	box-sizing: border-box;
+	background-color: white;
+	color: grey;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+
+a.cta,
+button.cta{
+	height: 25px;
+	width: 105px;
+	margin-top: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	background: grey;
+	color: white;
+	display: inline-block;
+	box-shadow: 0 0 0 10px rgba(1,1,1,.15);
+	padding: 15px 15px;
+	border-radius: 10px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+a.cta:active,
+button.cta:active{
+	opacity:0.7;
+
+}
+
+/*a.cta.alt,
+button.cta.alt{
+	background: #FFD400;
+	color: #111111;
+	box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}*/
+
+.aboutUsPhoto{
+	background: url(photos/arm.png) no-repeat 0 0;
+	width: 460px;
+	height: 566px;
+	position: relative;
+	margin: 0px 120px 30px 0px;
+	float: right;
+	border-radius: 10px;
+}
+
+hr.hr1 {
+	width: 1000px;
+    position: relative;
+    margin: 0 auto 60px;
+    border: 1px dashed #B6B6B6;
+}
+
+.services{
+	height: 310px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+}
+
+.indexService1{
+	margin-left: 60px;
+	background: url(photos/service1.png) no-repeat 0 0;
+	background-size: 100%;
+	display: inline-block;
+	width: 330px;
+	height: 310px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	border-style: none;
+}
+
+.indexService2{
+	display: inline-block;
+	margin-left: 40px;
+	background: url(photos/service2.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 330px;
+	height: 310px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	border-style: none;
+}
+
+.indexService3{
+	display: inline-block;
+	margin-left: 40px;
+	background: url(photos/service3.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 330px;
+	height: 310px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	border-style: none;
+}
+
+.indexService1Name{
+	margin-top: 205px;
+	padding-top: 10px;
+	height: 55px;
+	box-sizing: border-box;
+	background-color: grey;
+	background: linear-gradient(rgba(141, 141, 141),rgba(182, 182, 182));
+	text-align: center;
+	border-radius: 10px;
+}
+
+.indexService2Name{
+	margin-top: 205px;
+	padding-top: 10px;
+	height: 55px;
+	box-sizing: border-box;
+	background-color: grey;
+	background: linear-gradient(rgba(141, 141, 141),rgba(182, 182, 182));
+	text-align: center;
+	border-radius: 10px;
+}
+
+.indexService3Name{
+	margin-top: 205px;
+	padding-top: 10px;
+	height: 55px;
+	box-sizing: border-box;
+	background-color: grey;
+	background: linear-gradient(rgba(141, 141, 141),rgba(182, 182, 182));
+	text-align: center;
+	border-radius: 10px;
+}
+
+.indexService1Name a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+.indexService2Name a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+.indexService3Name a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+.newsStuff{
+	padding-top: 60px; 
+	height: 600px;
+	background-image: linear-gradient(to right,rgba(141, 141, 141, 0.92),rgba(182, 182, 182, 0.92)),url(photos/newsbackground2.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat 0 0; 
+	background-size: 100%;
+}
+
+
+.newsStuff img{
+	height: 500px;
+	background-size: 100%
+	padding-top: 20px;
+}
+
+.newsStuff h2{
+	font-size: 28px;
+	height: 50px;
+	margin-bottom: 60px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+
+.news1{
+	margin-left: 45px;
+	display: inline-block;
+	width: 310px;
+	height: 330px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: url(photos/news1.png) no-repeat 0 0;
+	background-size: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.news2{
+	display: inline-block;
+	margin-left: 50px;
+	width: 310px;
+	height: 330px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: url(photos/news2.png) no-repeat 0 0;
+	background-size: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.news3{
+	display: inline-block;
+	margin-left: 50px;
+	width: 310px;
+	height: 330px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: url(photos/news3.png) no-repeat 0 0;
+	background-size: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.news4{
+	display: inline-block;
+	margin-left: 50px;
+	width: 310px;
+	height: 330px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: url(photos/news4.png) no-repeat 0 0;
+	background-size: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.date1{
+	margin: 190px 15px 0 10px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	padding: 7px;
+	float: left;
+}
+
+.date2{
+	margin: 190px 15px 0 10px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	padding: 7px;
+	float: left;
+
+}
+
+.date3{
+	margin: 190px 15px 0 10px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	padding: 7px;
+	float: left;
+
+}
+
+.date4{
+	margin: 190px 15px 0 10px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	padding: 7px;
+	float: left;
+
+}
+
+.date1 p{
+	margin-top: 0px;
+	color: grey;
+}
+
+.date2 p{
+	margin-top: 0px;
+	color: grey;
+}
+
+.date3 p{
+	margin-top: 0px;
+	color: grey;
+}
+
+.date4 p{
+	margin-top: 0px;
+	color: grey;
+}
+
+.newsTitle{
+	display: block;
+	margin: 190px 5px 0 15px;
+}
+
+.apost{
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url(photos/apost.png);
+	background-size: 100%;
+	float: left;
+}
+
+.testimonies{
+	height: 750px;
+	padding-top: 50px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.80),rgba(255, 255, 255, 0.80)),url(photos/testbackground6.png);
+	background-attachment: fixed;
+	background-size: 100%
+}
+
+.testimonies h2{
+	text-align: center;
+	margin-bottom: 60px;
+	height: 50px;
+	color: grey;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	letter-spacing: 5px;
+}
+
+.testDisplay h4{
+	margin-top: 25px;
+	color: teal;
+}
+
+.testimony1{
+	width: 620px;
+	margin-left: 50px;
+	padding-left: 20px;
+	float: left;
+}
+
+.testHeader1{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B6B6B6;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.testIcon1{
+	width: 60px;
+	height: 60px ;
+	background: url(photos/test1.png) no-repeat 0 0;
+	background-size: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.testimony2{
+	width: 620px;
+	margin-right: 50px; 
+	padding-left: 20px;
+	float: right;
+}
+
+.testHeader2{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B6B6B6;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.testIcon2{
+	width: 60px;
+	height: 60px ;
+	background: url(photos/test2.png) no-repeat 0 0;
+	background-size: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.testimony3{
+	width: 620px;
+	margin-top: 60px;
+	margin-left: 50px; 
+	padding-left: 20px;
+	float: left;
+}
+
+.testHeader3{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B6B6B6;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.testIcon3{
+	width: 60px;
+	height: 60px ;
+	background: url(photos/test3.png) no-repeat 0 0;
+	background-size: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.testimony4{
+	width: 620px;
+	margin-top: 60px;
+	margin-right: 50px;
+	padding-left: 20px;
+	float: right;
+}
+
+.testHeader4{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B6B6B6;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.testIcon4{
+	width: 60px;
+	height: 60px ;
+	background: url(photos/test4.png) no-repeat 0 0;
+	background-size: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.feedback{
+	height: 450px;	
+	/*margin-left: 920px;*/
+	display: block;
+	width: 100%;
+	background: url(photos/testbackground8.png) no-repeat 0 0;
+	background-size: 100%;
+	box-sizing: border-box;
+}
+
+.feedbackForm{
+	display: block;
+	height: 370px;
+	width: 800px;
+	background-color: grey;
+	padding: 40px 60px 40px 60px;
+	opacity: 0.90;
+	float: left;
+}
+
+.feedbackForm h2{
+	text-align: center;
+	margin-bottom: 10px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+::placeholder{
+	color: white;
+}
+
+#feedBackName{
+	width: 45%;
+	height: 30px;
+	font-size: 16px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#feedBackEmail{
+	width: 45%;
+	height: 30px;
+	font-size: 16px;
+	padding-bottom: 10px;
+	float: right;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#feedBackPhone{
+	width: 45%;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#feedBackSubject{
+	width: 45%;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	float: right;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#feedBackMessage{
+	width: 99%;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#feedBackSubmit{
+	width: 30%;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 280px;
+	border-style: none;
+	cursor: pointer;
+	color: grey;
+	outline: none;
+}
+
+.contactUs{
+	height: 250px;
+	padding: 100px 0; 
+}
+
+.contact1{
+	width: 400px;
+	height: 300px;
+	padding: 30px 0px 20px 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.contact2{
+	width: 330px;
+	height: 300px;
+	padding: 30px 20px 20px 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.contact3{
+	width: 400px;
+	height: 300px;
+	padding: 30px 20px 20px 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.contactLogo{
+	display: block;
+	width: 240px;
+	height: 100px;
+	background: url(photos/medicine.png) no-repeat 0 0;
+	background-size: 100%;
+	margin-left: 70px;
+}
+
+.contact1 p{
+	line-height: 1.5;
+	margin-left: 40px;
+	font-size: 18px;
+	color: grey;
+}
+
+.contact2 p{
+	height: 35px;
+	color: grey;
+}
+
+.contact2 h3{
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 21px;
+	text-transform: uppercase;
+	border-left: solid grey 5px;
+}
+
+.p2{
+	padding-top: 7px;
+}
+
+.contactIcon1{
+	height: 30px;
+	width: 30px;
+	background: url(photos/mailbox.png);
+	background-size: 100%; 
+	float: left;
+	margin-right: 10px;
+}
+
+.contactIcon2{
+	height: 30px;
+	width: 30px;
+	background: url(photos/email.png);
+	background-size: 100%; 
+	float: left;
+	margin-right: 10px;
+}
+
+.contactIcon3{
+	height: 30px;
+	width: 30px;
+	background: url(photos/call.png);
+	background-size: 100%; 
+	float: left;
+	margin-right: 10px;
+}
+
+.contact3 h3{
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 21px;
+	text-transform: uppercase;
+	border-left: solid grey 5px;
+}
+
+.contact3 p{
+	line-height: 1.5;
+	font-size: 18px;
+	color: grey;
+}
+
+.contact3 form{
+	height: 42px;
+	width: 100%;
+}
+
+#subEmail{
+	height: 40px;
+	width: 70%;
+}
+
+#subSubmit{
+	height: 43px;
+	width: 25%;
+	font-size: 20px;
+	background-color: grey;
+	color: white;
+	border-radius: 10px;
+}
+
+.footer{
+	height: 70px;
+	background-color: grey;
+}
+
+.footerDetails{
+	padding-top: 24px;
+	margin-left: 200px;
+	color: white;
+}
+
+/*-------------------------------------------------------------      THIS IS THE END OF INDEX CSS     ---------------------------------------------------------------*/
+
+.doctors{
+	height: 2580px;
+	padding: 50px 0 60px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.80),rgba(255, 255, 255, 0.80)),url(photos/docbackground.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.doctors h2{
+	color: grey;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.docName{
+	font-size: 25px;
+	color: grey;
+}
+
+.doctor1{
+	border-style: solid;
+	border-color: grey;
+	background-color: white;
+	height: 750px;
+	margin-bottom: 70px;
+}
+
+.doctor1Photo{
+	display: block;
+	width: 550px;
+	height: 650px;
+	margin: 50px 50px 50px 50px;
+	background: url(photos/doctor01.png);
+	background-size: 100%;
+	float: left;
+}
+
+.doctor1Details{
+	margin: 50px 50px 50px 0px;
+}
+
+.doctor1Details h3{
+	font-size: 30px;
+}
+
+.doctor1Details p{
+	font-size: 25px;
+	color: grey;
+}
+
+.doctor2{
+	border-style: solid;
+	border-color: grey;
+	background-color: white;
+	height: 750px;
+	margin-bottom: 70px;
+}
+
+.doctor2Photo{
+	display: block;
+	width: 550px;
+	height: 650px;
+	margin: 50px 50px 50px 50px;
+	background: url(photos/doctor02.png);
+	background-size: 100%;
+	float: left;
+}
+
+.doctor2Details{
+	margin: 50px 50px 50px 0px;
+}
+
+.doctor2Details h3{
+	font-size: 30px;
+}
+
+.doctor2Details p{
+	font-size: 25px;
+	color: grey;
+}
+
+.doctor3{
+	border-style: solid;
+	border-color: grey;
+	background-color: white;
+	height: 750px;
+	margin-bottom: 70px;
+}
+
+.doctor3Photo{
+	display: block;
+	width: 550px;
+	height: 650px;
+	margin: 50px 50px 50px 50px;
+	background: url(photos/doctor03.png);
+	background-size: 100%;
+	float: left;
+}
+
+.doctor3Details{
+	margin: 50px 50px 50px 0px;
+}
+
+.doctor3Details h3{
+	font-size: 30px;
+}
+
+.doctor3Details p{
+	font-size: 25px;
+	color: grey;
+}
+
+
+/*-------------------------------------------------------------      THIS IS THE END OF DOCTOR CSS     ---------------------------------------------------------------*/
+
+.serviceWrapper{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.service{
+	height: 1200px;
+	margin: 0px auto;
+}
+
+.service h2{
+	color: grey;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 30px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+.service1{
+	width: 350px;
+	height: 200px;
+	margin: 80px 0px 0 121.5px;
+	padding: 30px 30px 30px 30px;
+	float: left;
+	text-align: center;
+	background-color: white;
+	border-right: solid #B6B6B6 2px;
+}
+
+.service2{
+	width: 350px;
+	height: 200px;
+	margin-top: 80px;
+	padding: 30px 30px 30px 30px;
+	float: left;
+	text-align: center;
+	background-color: white;
+	border-right: solid #B6B6B6 2px;
+}
+
+.service h3{
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	color: #8D8D8D;
+}
+
+.service a{
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+
+.serviceIcon1{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/heartbeat.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon2{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/cane.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon3{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/screen.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon4{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/ladydoctor.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon5{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/toilet.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon6{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/injection.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon7{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/insurance.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon8{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/stethoscope.png);
+	background-size: 100%;
+}
+
+
+.serviceIcon9{
+	margin-left: 125px;
+	width: 100px;
+	height: 100px;
+	background: url(photos/surgery.png);
+	background-size: 100%;
+}
+
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.popup.show{
+	display: block;
+}
+
+.popup .blanket{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .close{
+	width: 50px;
+	height: 50px;
+	background-color: #FF3300;
+	background: url(photos/close.png) no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	top:-25px;
+	right: -25px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.popup h2{
+	margin: 10px 0 20px;
+	font-size: 30px;
+}
+
+.popup p{
+	text-align: left;
+	font-size: 20px;
+}
+
+.popup .content1{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 650px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content2{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 430px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content3{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 570px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content4{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 430px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content5{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 590px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content6{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content7{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 550px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content8{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 475px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+.popup .content9{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 390px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -400px;
+	margin-left: -480px;
+}
+
+/*-------------------------------------------------------------      THIS IS THE END OF SERVICE CSS     ---------------------------------------------------------------*/
+
+
+.registration{
+	height: 800px;
+	margin: 0px auto;
+	/*background-color: grey;*/
+	background-image: linear-gradient(rgba(255, 255, 255, 0.90),rgba(255, 255, 255, 0.90)),url(photos/regisbackground.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.regisWrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.regisForm{
+	display: block;
+	margin: 110px auto; 
+	height: 500px;
+	background-color: grey;
+	padding: 40px 60px 40px 60px;
+	opacity: 0.90;
+	float: left;
+}
+
+.regisForm h2{
+	margin-bottom: 0px;
+	height: 50px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.regisForm p{
+	font-size: 20px;
+	color: white;
+	margin-top: 5px; 
+}
+
+#regisName{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	outline: none;
+}
+
+#regisNric{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-left: 70px;
+	margin-top: 50px;
+	outline: none;
+}
+
+#regisEmail{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 50px;
+	outline: none;
+}
+
+#regisPassword{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 600px;
+	outline: none;
+}
+
+#regisNumber{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 70px;
+	outline: none;
+}
+
+#regisSubmit{
+	width: 26%;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 23px;
+	margin-top: 40px;
+	margin-left: 325px;
+	border-style: none;
+	cursor: pointer;
+	color: grey;
+	text-transform: uppercase;
+	outline: none;
+}
+
+/*-------------------------------------------------------------      THIS IS THE END OF REGISTRATION CSS     ---------------------------------------------------------*/
+
+
+.login{
+	height: 810px;
+	margin: 0px auto;
+	text-align: center;
+	/*background-color: grey;*/
+	background-image: linear-gradient(rgba(255, 255, 255, 0.90),rgba(255, 255, 255, 0.90)),url(photos/regisbackground.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.loginWrapper{
+	width: 500px;
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+
+.loginForm{
+	display: block;
+	margin: 110px auto; 
+	height: 500px;
+	width: 380px;
+	background-color: grey;
+	padding: 40px 60px 40px 60px;
+	opacity: 0.90;
+	float: left;
+	border-radius: 20px;
+}
+
+.login h2{
+	text-align: center;
+	margin-bottom: 0px;
+	height: 50px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+.login p{
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	height: 18px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+
+#loginEmail{
+	width: 80%;
+	height: 30px;
+	font-size: 18px;
+	padding-bottom: 10px;
+/*	float: left;*/
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+#loginPassword{
+	width: 80%;
+	height: 30px;
+	font-size: 18px;
+	padding-bottom: 10px;
+	/*float: left;*/
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	outline: none;
+}
+
+.loginIcon1{
+	height: 30px;
+	width: 30px;
+	background: url(photos/email1.png);
+	background-size: 100%; 
+	float: left;
+	margin-top: 5px;
+	margin-right: -20px;
+}
+
+.loginIcon2{
+	height: 30px;
+	width: 30px;
+	background: url(photos/lock.png);
+	background-size: 100%; 
+	float: left;
+	margin-top: 5px;
+	margin-right: -20px;
+}
+
+#loginSubmit{
+	width: 50%;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 130px;
+	/*margin-left: 390px;*/
+	border-style: none;
+	cursor: pointer;
+	color: grey;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.login a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+/*-------------------------------------------------------------      THIS IS THE END OF LOGIN CSS     ---------------------------------------------------------*/
+
+.booking{
+	height: 850px;
+	margin: 0px auto;
+	/*background-color: grey;*/
+	background-image: linear-gradient(rgba(255, 255, 255, 0.90),rgba(255, 255, 255, 0.90)),url(photos/regisbackground.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.bookingWrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bookingForm{
+	display: block;
+	margin: 110px auto; 
+	height: 550px;
+	background-color: grey;
+	padding: 40px 60px 40px 60px;
+	opacity: 0.90;
+	float: left;
+}
+
+.bookingForm h2{
+	margin-bottom: 0px;
+	height: 50px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.bookingForm p{
+	font-size: 20px;
+	color: white;
+	margin-top: 5px; 
+}
+
+#bookName{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	outline: none;
+}
+
+#bookNric{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-left: 70px;
+	margin-top: 50px;
+	outline: none;
+}
+
+#bookEmail{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 50px;
+	outline: none;
+}
+
+
+#bookNumber{
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 30px;
+/*	margin-right: 600px;
+	margin-left: 50px;*/
+	margin-left: 70px;
+	outline: none;
+}
+
+#bookDoctor{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 50px;
+	outline: none;
+}
+
+#bookDate{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 600px;
+	outline: none;
+}
+
+#bookTime{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 70px;
+	outline: none;
+}
+
+#bookSubmit{
+	width: 26%;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 23px;
+	margin-top: 50px;
+	margin-left: 325px;
+	border-style: none;
+	cursor: pointer;
+	color: grey;
+	text-transform: uppercase;
+	outline: none;
+}
+
+/*-------------------------------------------------------------      THIS IS THE END OF BOOKING CSS     ---------------------------------------------------------*/
+
+.update{
+	height: 740px;
+	margin: 0px auto;
+	/*background-color: grey;*/
+	background-image: linear-gradient(rgba(255, 255, 255, 0.90),rgba(255, 255, 255, 0.90)),url(photos/regisbackground.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.updateWrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.updateForm{
+	display: block;
+	margin: 110px auto; 
+	height: 435px;
+	background-color: grey;
+	padding: 40px 60px 40px 60px;
+	opacity: 0.90;
+	float: left;
+}
+
+.updateForm h2{
+	margin-bottom: 0px;
+	height: 50px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.updateForm p{
+	font-size: 20px;
+	color: white;
+	margin-top: 5px; 
+}
+
+#updateP{
+	font-size: 20px;
+	color: white;
+	margin-top: 0px; 
+}
+
+#updateDoctor{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 50px;
+	outline: none;
+}
+
+#updateDate{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 600px;
+	outline: none;
+}
+
+#updateTime{
+	width: 40%;
+	height: 35px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: grey;
+	border-style: none;
+	border-bottom: solid 1px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 70px;
+	outline: none;
+}
+
+#updateSubmit{
+	width: 26%;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 23px;
+	margin-top: 50px;
+	margin-left: 325px;
+	border-style: none;
+	cursor: pointer;
+	color: grey;
+	text-transform: uppercase;
+	outline: none;
+}
