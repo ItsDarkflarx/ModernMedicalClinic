@@ -2,7 +2,7 @@
 
 	session_start();
 
-    $db = new mysqli('localhost', 'mx', 'Testing123', 'u606694035_medical');
+    $db = new mysqli('localhost', 'u606694035_mx', 'Testing123', 'u606694035_medical');
 
     if (mysqli_connect_errno()) {
         echo 'Error: Could not connect to database.  Please try again later.';
