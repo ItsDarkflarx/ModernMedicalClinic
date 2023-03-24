@@ -21,7 +21,7 @@
             <li><a href="login.php">Login</a></li>
             <li><a href="service.php">Service Provided</a></li>
             <li><a href="doctor.php">Our Doctors</a></li>
-            <li><a href="home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
         </ul>
     </nav>
     <div class="doctors">
