@@ -6,7 +6,12 @@ This Project was a Solo Design Project, the objective was to create a Dynamic we
 3. Details for $db = new mysqli('localhost', 'mx', '', 'test'); needs to be changed according to your connection details ('server', 'user', 'pass', 'database'). change them in the following .php files
 
 bookrequest.php
+
 loggin.php
+
 register.php
+
 showBook.php
+
 updateBook.php
+
