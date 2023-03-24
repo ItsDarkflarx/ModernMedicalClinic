@@ -1,6 +1,6 @@
 <?php
 
-    $db = new mysqli('localhost', 'mx', '', 'test');
+    $db = new mysqli('localhost', 'mx', 'Testing123', 'u606694035_medical');
 
     if (mysqli_connect_errno()) {
         echo 'Error: Could not connect to database.  Please try again later.';
